@@ -1,0 +1,63 @@
+{
+  "version": "https://schema.openattestation.com/2.0/schema.json",
+  "data": {
+    "id": "1f80595f-e256-4a87-8f01-3d9a2dd495e1:string:66963c013231339b291efe5d-19",
+    "name": "29c8736d-67de-4e20-8e8a-72cc95774b39:string:DIGITAL GROWTH AND INNOVATION",
+    "recipient": {
+      "name": "2d35fc92-7189-48e3-b8b5-c578a3948504:string:THONG JIE YANG",
+      "email": "487bb0b1-bdb3-43bd-a527-685595fe9096:string:jieyang.thong@bizedge.com"
+    },
+    "issuers": [
+      {
+        "id": "1735b0cb-dccc-474d-b36e-85a79ada7d77:string:did:ethr:0xb41f4a65b16e363402fd297e5830269f2aa9a3ac",
+        "issuerName": "f2cb9e3e-b366-4f5a-a971-77beb8bfb183:string:BCG RISE",
+        "name": "bff6f091-4c00-459f-8139-8443d7131517:string:BCG RISE",
+        "revocation": {
+          "type": "992745a7-ff86-444d-83d4-87047300616e:string:REVOCATION_STORE",
+          "location": "18be141d-cfd4-467a-b64d-339076675042:string:0x0d12a3c4636c6ec266ede0d491a0d048c0f97e0f"
+        },
+        "identityProof": {
+          "type": "47a584a2-bda7-42b4-a480-36003109065e:string:DNS-DID",
+          "key": "c7ded34a-2400-465b-b954-91e14291e778:string:did:ethr:0xb41f4a65b16e363402fd297e5830269f2aa9a3ac#controller",
+          "location": "272a91d1-87e1-4bda-9401-81afd8cad756:string:bcg.issuers.accredify.io"
+        },
+        "url": "9ee5ca01-efe4-42cc-8449-9eafa4cc2748:string:https://rise.bcg.com/"
+      }
+    ],
+    "issuedOn": "9eab665d-6cb2-45cf-a245-972016807e54:string:2024-07-16T00:00:00+08:00",
+    "graduationDate": "b0d0fd59-a527-41fb-b016-abd7526d969b:string:2024-04-11T00:00:00+08:00",
+    "additionalData": {
+      "extra": {
+        "certificateType": "0411a082-46cf-414e-8eb0-51de7da2e6e9:string:CERTIFICATE OF PROGRAM COMPLETION ",
+        "programName": "8f4f9fcd-ac22-40dc-9a00-4beda3a349ac:string:RISE for Business"
+      }
+    },
+    "$template": {
+      "name": "d1c1f5cb-38dc-46cd-b4cb-7e1beb0c103e:string:BCG-2023-1",
+      "type": "8222ce77-7bda-4b2b-aa53-9961ce2e6307:string:EMBEDDED_RENDERER",
+      "url": "99b365c3-78a0-4cb6-b3c5-308c27cfac56:string:https://render.accredify.io"
+    }
+  },
+  "schema": "https://raw.githubusercontent.com/OpenCerts/open-certificate/master/schema/transcripts/2.0/schema.json",
+  "signature": {
+    "type": "SHA3MerkleProof",
+    "targetHash": "138a62e6a4eefe4e67c7ea24050cd112c7bda4854c5bd36b0bf6e69900820666",
+    "proof": [
+      "b5354e4fbe9b3f1070810847f06fcbc39d266431fb40279e3f6911fcd3e5157d",
+      "bce2e48d15ddb1ef3ef3069c823632bf40adb9ca9289645210720380846f0c2f",
+      "0fd169e9c0770f9b4adc94ffa09b865c6961028a8a9a18278f6ede1377e48779",
+      "3de9c1917b984a1524eb3606dd4aa4bdb03e882b8f8907b2fc212e93bb197632",
+      "6ee4a395038d8037d78a4c5a9fab91697cc3e6aabffc472f80a58b1632edf88e"
+    ],
+    "merkleRoot": "0b3e2ecbb8673c563c257b30128c6f07901c41bcb9d7ad3dd334cf1f1ff2bc8e"
+  },
+  "proof": [
+    {
+      "type": "OpenAttestationSignature2018",
+      "created": "2024-07-16T09:25:55.032Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:ethr:0xb41f4a65b16e363402fd297e5830269f2aa9a3ac#controller",
+      "signature": "0xa7fe9cba60fd35a02a9f1dc872b27de5f9e28ee4360b6ad1d4ec607af5d268107b37831fc63befd70e5ceaef808f5384d69de5e96f73e184584dd186277859851c"
+    }
+  ]
+}
